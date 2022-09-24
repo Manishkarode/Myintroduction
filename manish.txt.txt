@@ -1,0 +1,12 @@
+touch.gitignore
+git config --global user.name Manish 
+git config --global user.email "gurjarmanishkarode@gmail.com"
+git init
+git add.
+git commit -m "Initial commit"
+git keygen -t rsa -b 4096 -C "gurjarmanishkarode@gmail.com"
+git status ! this just to check everything is okk or not 
+
+Cat<path>
+git remote add origin <ssh url .git>
+git push origin master

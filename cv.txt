@@ -1,0 +1,3 @@
+This is my resume section and i put my all resume here 
+currently i am working on webdevelopment 
+first i studies about html, css javascript and nodejs mongoos and expreess js

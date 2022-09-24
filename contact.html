@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish_Karode-Webdeveloper</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+</head>
+<body>
+     
+    <div class="container ">
+
+    
+    <div class="slidebar slidebargo">
+    
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./intro.html" target="_blank" >My intro</a></li>
+                <!-- <li><a href="./services.html"target="_blank">Services</a></li> -->
+                <li><a href="./contact.html"target="_blank">Contact Me</a></li>
+                <li><a href="cv.txt"target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main ">
+        <img id="hmg" src="./hamburgericon.png" width="20px" alt="">
+            <img id="crs" src="./crossicon.jpg" width="20px" alt="">
+    <div class="containerofcontact">
+        <form action="php">
+            <h1>Contact me for work/general Enquiries</h1>
+            <label1 for="name">Name</label1>
+            <input type="text" name="Enter Your Name" id="name1" placeholder="Enter Your Name">
+            <label1 for="email">Email</label1>
+            <input type="email" name="Enter Your email" id="email1" placeholder="xyz@gmai.com">
+            <label1 for="clientNumber">Number</label1>
+            <input type="number" name="Phone" id="clientNumber1"placeholder="Enter Your Mobile Number">
+        </form>
+        
+        <form action="">
+            <label for="radio1">Are you interested to work with me</label>
+            <input type="checkbox" name="check" id="radio1">
+            <button class="subbtn">Submit</button>
+            <!-- <a href="./index.html"><button class="subbtn">&lt&lt</button></a> -->
+
+            </form>
+    </div>
+        
+
+</div>
+
+
+<script>
+ 
+    document.querySelector("#crs").style.display="none"
+    document.querySelector("#hmg").addEventListener("click",()=>{
+    document.querySelector(".slidebar").classList.toggle('slidebargo');
+    })
+    
+    </script>
+</body>
+</html>

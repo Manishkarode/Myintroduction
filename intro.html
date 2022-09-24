@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish_Karode-Webdeveloper</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+</head>
+<body>
+     
+    <div class="container">
+
+    
+    <div class="slidebar slidebargo">
+    
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./intro.html" target="_blank" >My intro</a></li>
+                <!-- <li><a href="./services.html"target="_blank">Services</a></li> -->
+                <li><a href="./contact.html"target="_blank">Contact Me</a></li>
+                <li><a href="cv.txt"target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main ">
+        <img id="hmg" src="./hamburgericon.png" width="20px" alt="">
+            <img id="crs" src="./crossicon.jpg" width="20px" alt="">
+    <div class="introcontainer">
+        <h1>Welcome by Manish Karode </h1>
+        <p>Hello dear visitors, i am welcoming all of you in my intro page ,so basically i am prefinal year computer science engineering student in SATI vidisha and currently i am studing on full stack webdevelopment. I completed my 10th and 12th from sun shine higher secondary school sirali harda . </p>
+
+        <p>MY SKILLS ARE :-</p>
+       HTML:<div class="skills"></div>
+       CSS:<div class="skills1"></div>
+       JAVASCRIPT:<div class="skills2"></div>
+       C++:<div class="skills3"></div>
+       BACKEND:<div class="skills4"></div>
+        
+    </div>
+   
+    <script>
+ 
+        document.querySelector("#crs").style.display="none"
+        document.querySelector("#hmg").addEventListener("click",()=>{
+        document.querySelector(".slidebar").classList.toggle('slidebargo');
+        })
+        
+        </script>
+        
+     
+</body>
+</html>
